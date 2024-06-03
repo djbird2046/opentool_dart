@@ -1,6 +1,5 @@
-import '../../opentool_dart.dart';
 import 'package:json_annotation/json_annotation.dart';
-
+import 'function_model.dart';
 import 'info.dart';
 
 part 'open_tool.g.dart';

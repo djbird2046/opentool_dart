@@ -11,7 +11,7 @@ void main() async {
     print("FILE_NAME: $jsonFileName");
     String jsonPath = "$currentWorkingDirectory/example/json/$jsonFileName";
     OpenToolLoader openToolLoader = OpenToolLoader();
-    OpenTool openTool = await openToolLoader.load(jsonPath);
+    OpenTool openTool = await openToolLoader.loadFromFile(jsonPath);
     print("title: ${openTool.info.title}");
   });
 }

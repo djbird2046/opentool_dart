@@ -1,4 +1,4 @@
-import 'package:opentool_dart/src/model/property.dart';
+import 'property.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'parameters.g.dart';
