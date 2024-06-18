@@ -1,6 +1,6 @@
 import 'dart:io';
-
 import 'package:opentool_dart/opentool_dart.dart';
+
 void main() async {
   List<String> jsonFileNameList = [];
   jsonFileNameList.add("database-example.json");

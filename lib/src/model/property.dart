@@ -2,9 +2,16 @@ import 'package:json_annotation/json_annotation.dart';
 
 part 'property.g.dart';
 
+enum PropertyType {
+  boolean,
+  integer,
+  number,
+  string
+}
+
 @JsonSerializable()
 class Property {
-  String type;
+  PropertyType type;
   @JsonKey(name: "enum")
   List<String>? enum_;
   String description;

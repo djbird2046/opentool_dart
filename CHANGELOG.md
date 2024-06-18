@@ -1,3 +1,7 @@
+## 0.1.2
+
+- add property type enum
+
 ## 0.1.1
 
 - add load from String
