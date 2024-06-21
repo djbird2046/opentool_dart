@@ -1,3 +1,7 @@
+## 0.1.3
+
+- property type array and object support
+
 ## 0.1.2
 
 - add property type enum
