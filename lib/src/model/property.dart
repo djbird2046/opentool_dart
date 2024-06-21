@@ -6,12 +6,16 @@ enum PropertyType {
   boolean,
   integer,
   number,
-  string
+  string,
+  array,
+  object
 }
 
 @JsonSerializable()
 class Property {
   PropertyType type;
+  Map<String, Property>? properties;
+  Property? items;
   @JsonKey(name: "enum")
   List<String>? enum_;
   String description;
@@ -21,7 +25,9 @@ class Property {
     required this.type,
     this.enum_,
     required this.description,
-    this.required = false
+    this.required = false,
+    this.items,
+    this.properties
   });
 
   factory Property.fromJson(Map<String, dynamic> json) => _$PropertyFromJson(json);
