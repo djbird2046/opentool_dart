@@ -1,4 +1,7 @@
 # opentool_dart
+
+⚠️Thanks for [@LiteVar](https://github.com/LiteVar) to continue maintaining. Achieve the project and move to https://github.com/LiteVar/opentool_dart
+
 An OpenTool JSON Spec Parser for dart.
 
 Inspired by OpenAPI, OpenRPC, and OpenAI `function calling` example.
